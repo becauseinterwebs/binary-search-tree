@@ -7,11 +7,11 @@ const bst = new BinarySearchTree();
 
 const nums = [50,40,10,30,100,25,22,13,80,67,97,55,43,32,5];
 
-console.log('> Inserting numbers:', nums.sort((a, b) => a - b).join(', '));
-
 for (const n of nums) bst.insert(n);
 
 console.log('> Root:', bst.root.value);
+
+bst.printTree();
 
 var leftDepth = 0;
 var left = bst.root;
@@ -47,3 +47,4 @@ const depth = Math.max(leftDepth, rightDepth);
 console.log('Depth:', depth);
 
 bst.printOrder();
+

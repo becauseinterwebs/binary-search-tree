@@ -82,6 +82,14 @@ export default class BinarySearchTree {
         }
     }
 
+    // function to visualze search tree in the console
+    printTree (node = this.root, level = 0, prefix = 'Root: ') {
+        if (node === null) return;
+        console.log('  '.repeat(level) + prefix + node.value);
+        this.printTree(node.left, level + 1, 'L--- ');
+        this.printTree(node.right, level + 1, 'R--- ');
+    }
+    
     #removeNode (current, value) {
         if (current === null) return current;
         // when value is the same as current's value, this is the node to be deleted
