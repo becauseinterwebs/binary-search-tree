@@ -25,4 +25,6 @@ You can then run the example:
 
 ### Python
 
-Coming soon ;)
+```BinarySearchTree.py``` exports the class and ```test.py``` implements the tests.
+
+```python test.py```
