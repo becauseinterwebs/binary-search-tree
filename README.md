@@ -11,7 +11,17 @@ and tests.  You can run it in Node.js:
 
 ### Typescript 
 
-Coming soon ;)
+To run the Typescript example, make sure you have Typescript installed either globally or locally.  To install it globally:
+
+```npm install -g typescript```
+
+You should also have ```ts-node``` installed:
+
+```npm install -g ts-node```
+
+You can then run the example:
+
+```ts-node test.ts```
 
 ### Python
 
