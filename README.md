@@ -1,7 +1,7 @@
 # Binary Search Tree
 
 A just-for-fun exercise in implementing the "old standard" Binary Search Tree algorithm in 
-different lanuages.
+different languages.
 
 ### Javascript
 ```BinarySearchTree.mjs``` contains the class and ```test.mjs``` contains the implmentation 
